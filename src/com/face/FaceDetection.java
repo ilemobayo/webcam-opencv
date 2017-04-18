@@ -34,7 +34,7 @@ public class FaceDetection extends javax.swing.JFrame {
     Mat frame = new Mat();
     MatOfByte mem = new MatOfByte();
     //CascadeClassifier faceDetector = new CascadeClassifier(getClass().getResource("haarcascade_frontalface_alt.xml").getPath().substring(1));
-    CascadeClassifier faceDetector = new CascadeClassifier(getClass().getResource("/lbpcascade_frontalface.xml").getPath());
+    CascadeClassifier faceDetector = new CascadeClassifier("/lbpcascade_frontalface.xml");
     MatOfRect faceDetections = new MatOfRect();    
 
     class FaceThread implements Runnable {
