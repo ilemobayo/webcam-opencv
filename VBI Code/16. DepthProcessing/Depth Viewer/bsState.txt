@@ -1,0 +1,9 @@
+Prefilter Size: 31
+Prefilter Cap: 31
+SAD Window Size: 15
+Min Disparity: 31
+No. of Disparities: 128
+Uniq Ratio: 15
+Texture Thresh: 10
+Speckle Size: 100
+Speckle Range: 4
